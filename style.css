@@ -28,13 +28,12 @@ body {
     border-left: 0.5px solid rgba(255, 255, 255, 0.35);
     padding-left: 40px;
     overflow: hidden;
+    transition: 0.5s ease-in-out;
 }
-
 .btn:hover {
     padding-left: 0px;
     padding-right: 40px;
     color: rgba(255, 255, 255, 1);
-
 }
 .btn span {
     position: absolute;
@@ -49,7 +48,6 @@ body {
     align-items: center;
     color: #28272a;
     font-size: 1.5em;
-    
 }
 .btn:hover span {
     left: calc(100% - 55px);
@@ -63,7 +61,6 @@ body {
     background: rgba(255, 255, 255, 0.25);
     transform: translateX(-170px) skewX(30deg);
     transition: 0.75s ease-in-out;
-
 }
 .btn:hover:after {
     transform: translateX(170px) skewX(30deg);
